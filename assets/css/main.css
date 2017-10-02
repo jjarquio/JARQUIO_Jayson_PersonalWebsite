@@ -617,4 +617,37 @@ header .hamburger.active .left{
     line-height: 28px;
 }
 
+/**  contact  **/
+.contact{
+    padding: 140px 0;
+    overflow: hidden;
+    text-align: center;
+}
 
+.contact .title{
+    font-style: 26px;
+    margin-top: 40px;
+}
+
+.contact hr{
+    display: block;
+    border: 0;
+    width: 100px;
+    height: 1px;
+    background: #797979;
+    margin: 60px auto; 
+}
+
+.contact .email,
+.contact .phone{
+    color: #4badcf;
+    font-family: "opensans-semibold", arial;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.contact .email{
+    margin-bottom: 40px;
+}
