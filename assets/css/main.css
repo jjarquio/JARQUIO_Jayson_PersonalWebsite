@@ -288,3 +288,115 @@ header .hamburger.active .left{
     font-size: 14px;
     line-height: 24px;
 }
+
+
+/*  about & timeline  */
+.Profile{
+    width: 100%;
+    padding: 140px 0 0 0;
+    background: #fafafa;
+    text-align: center;
+}
+
+.Profile .Profile_txt{
+    width: 70%;
+    color: #797979;
+    font-family: "opensans-regular", arial;
+    font-size: 16px;
+    margin: 60px auto;
+    line-height: 30px;
+}
+
+.Profile .timeline hr{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #efeeee;
+    margin: 0 auto;
+    border: 0;
+}
+
+.Profile .timeline .column{
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.Profile .timeline .left_row{
+    width: 488px;
+    border-right: 2px solid #efeeee;
+    float: left;
+    padding: 60px 30px 0 30px;
+    position: relative;
+}
+
+.Profile .timeline .right_row{
+    width: 490px;
+    float: right;
+    padding: 60px 30px 0 30px;
+    border-left: 2px solid #efeeee;
+    position: relative;
+}
+
+.Profile .timeline .right_row h2,
+.Profile .timeline .left_row h2{
+    color: #535353;
+    font-family: "opensans-semibold", arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    line-height: 24px;
+    letter-spacing: .5px;
+}
+
+.Profile .timeline .right_row p,
+.Profile .timeline .left_row p{
+    color: #797979;
+    font-family: "opensans-regular", arial;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .5px;
+}
+
+.Profile .timeline .right_row.first,
+.Profile .timeline .left_row.first{
+    padding-top: 100px;
+}
+
+.Profile .timeline .right_row.last,
+.Profile .timeline .left_row.last{
+    padding-bottom: 140px;
+}
+
+
+.Profile .timeline .right_row .bullet_point{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    margin-left: -12px;
+}
+
+.Profile .timeline .left_row .bullet_point{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    margin-right: -12px;
+}
+
+.Profile .timeline .right_row.first .bullet_point,
+.Profile .timeline .left_row.first .bullet_point{
+    margin-top: 100px;
+}
+
+
+.Profile hr.end_timeline{
+    display: block;
+    width: 2px;
+    height: 40px;
+    border: 0;
+    background: #efeeee;
+    left: 50%;
+}
