@@ -274,7 +274,7 @@ header .hamburger.active .left{
 .Introduction article .Introduction_info h3{
     margin: 0 0 40px 0;
     color: #535353;
-    font-family: "opensans-bold", arial;
+    font-family: "Overheader_logo-semibold", arial;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -284,7 +284,7 @@ header .hamburger.active .left{
 
 .Introduction article p.Introduction_desc{
     color: #797878;
-    font-family: "opensans-regular", arial;
+    font-family: "Overheader_logo-semibold", arial;
     font-size: 14px;
     line-height: 24px;
 }
@@ -301,7 +301,7 @@ header .hamburger.active .left{
 .Profile .Profile_txt{
     width: 70%;
     color: #797979;
-    font-family: "opensans-regular", arial;
+    font-family: "Overheader_logo-semibold", arial;
     font-size: 16px;
     margin: 60px auto;
     line-height: 30px;
@@ -341,7 +341,7 @@ header .hamburger.active .left{
 .Profile .timeline .right_row h2,
 .Profile .timeline .left_row h2{
     color: #535353;
-    font-family: "opensans-semibold", arial;
+    font-family: "Overheader_logo-semibold", arial;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -353,7 +353,7 @@ header .hamburger.active .left{
 .Profile .timeline .right_row p,
 .Profile .timeline .left_row p{
     color: #797979;
-    font-family: "opensans-regular", arial;
+    font-family: "Overheader_logo-semibold", arial;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: .5px;
