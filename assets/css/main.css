@@ -400,3 +400,161 @@ header .hamburger.active .left{
     background: #efeeee;
     left: 50%;
 }
+
+
+/*  about  */
+.Gallery{
+    width: 100%;
+    padding: 140px 0;
+    overflow: hidden;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+    color: #535353;
+    font-family: "opensans-bold", arial;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title span{
+    color: #797979;
+    font-size: 14px;
+    font-family: "opensans-regular", arial;
+    font-weight: normal;
+    margin-left: 5px;
+    text-transform: lowercase;
+}
+
+.Gallery .folio_wrapper ul li .shadow{
+    width: 100%;
+    height: 155px;
+    list-style: none;
+    background: url('../img/shadow.png');
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    position: absolute;
+    z-index: 2222;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+.Gallery .folio_wrapper ul li article:hover .shadow{
+    opacity: 1;
+}
+
+.Gallery .folio_wrapper ul li .folio_info{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    opacity: 0;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+.Gallery .folio_wrapper ul li article:hover .folio_info{
+    bottom: 20px;
+    opacity: 1;
+}
+
+.Gallery .folio_wrapper ul li .folio_info a{
+    text-decoration: none;
+}
+
+.Gallery .folio_wrapper ul li .folio_info a h2{
+    color: #fff;
+    font-family: "opensans-semibold", arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Gallery .folio_wrapper ul li .folio_info a h3{
+    color: #fff;
+    font-family: "opensans-regular", arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.Gallery .folio_wrapper ul li .folio_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+}
+
+
+/*----    portfolio slider  ----*/
+.Gallery .flex-viewport{
+    overflow: visible!important;
+}
+
+.Gallery .folio_wrapper{
+    margin-top: 100px;
+    overflow-x: visible!important;
+}
+
+.folio_wrapper ol.flex-control-paging li a:hover{
+    cursor: pointer;
+}
+
+.folio_wrapper ol.flex-control-paging li a.flex-active{
+    background: url('../img/slider_nav_active.png') no-repeat;
+}
+
+.Gallery .folio_wrapper ul li{
+    display: block;
+    width: 313px;
+    height: 310px;
+    list-style: none;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-right: 80px;
+}
+
+.Gallery .folio_wrapper ul li:last-child{
+    margin-right: 0;
+}
+
+/*  pagination */
+.folio_wrapper ol.flex-control-paging{
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.folio_wrapper ol.flex-control-paging li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.folio_wrapper ol.flex-control-paging li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url('../img/slider_nav_inactive.png') no-repeat;
+    overflow: hidden;
+    text-indent: -5555px;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+
