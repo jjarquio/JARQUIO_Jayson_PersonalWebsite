@@ -3,6 +3,11 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body{color:#7F7F7F; background-color:#050505;}
+
+.nowrap {
+    white-space: nowrap;
+}
 
 
 #head{
