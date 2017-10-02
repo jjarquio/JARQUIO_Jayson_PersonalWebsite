@@ -241,20 +241,3 @@ header .hamburger.active .left{
     margin-top: 200px;
 }
 
-.billboard .scroll{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -12px;
-}
-
-
-
-.nowrap {
-    white-space: nowrap;
-}
-
-
-#head{
-	
-}
