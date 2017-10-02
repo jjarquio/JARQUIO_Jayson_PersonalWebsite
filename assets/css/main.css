@@ -402,7 +402,7 @@ header .hamburger.active .left{
 }
 
 
-/*  about  */
+/*  Gallery  */
 .Gallery{
     width: 100%;
     padding: 140px 0;
@@ -555,6 +555,66 @@ header .hamburger.active .left{
     -webkit-transition:all .2s linear;
     -moz-transition:all .2s linear;
     -o-transition:all .2s linear;
+}
+
+
+/*  Asspirations  */
+.Asspirations{
+    padding: 140px 0;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+.Asspirations .Asspirations_wrapper{
+    display: block;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.Asspirations .Asspirations_wrapper article{
+    width: 313px;
+    float: left;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.Asspirations .Asspirations_wrapper article:last-child{
+    margin-right: 0;
+}
+
+.Asspirations .Asspirations_wrapper article .author{
+    margin: 20px 0 0 0;
+    color: #666;
+    font-family: "opensans-semibold", arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Asspirations .Asspirations .testimonial{
+    padding: 46px 20px;
+    border: 1px solid #e3e3e3;
+    position: relative;
+    margin-top: 60px;
+}
+
+.Asspirations .Asspirations .testimonial .arrow{
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background: url('../images/testimonial_arrow.png') no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -7px;
+}
+
+.Asspirations .Asspirations .testimonial p{
+    color: #797979;
+    font-family: "opensans-regular", arial;
+    font-size: 14px;
+    line-height: 28px;
 }
 
 
