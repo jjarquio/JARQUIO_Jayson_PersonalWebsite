@@ -364,8 +364,7 @@ header.header_fixed nav ul li a,
 }
 
 
-/*  Gallery  */
-.Gallery{
+.portfolio{
     width: 100%;
     padding: 140px 0;
     overflow: hidden;
@@ -390,11 +389,11 @@ header.header_fixed nav ul li a,
     text-transform: lowercase;
 }
 
-.Gallery .folio_wrapper ul li .shadow{
+.portfolio .folio_wrapper ul li .shadow{
     width: 100%;
     height: 155px;
     list-style: none;
-    background: url('../images/shadow.png');
+    background: url('assets/images/shadow.png');
     background-repeat: repeat-x;
     background-position: 0 0;
     position: absolute;
@@ -409,11 +408,11 @@ header.header_fixed nav ul li a,
     -o-transition:all .2s linear;
 }
 
-.Gallery .folio_wrapper ul li article:hover .shadow{
+.portfolio .folio_wrapper ul li article:hover .shadow{
     opacity: 1;
 }
 
-.Gallery .folio_wrapper ul li .folio_info{
+.portfolio .folio_wrapper ul li .folio_info{
     position: absolute;
     bottom: 30px;
     left: 20px;
@@ -425,16 +424,16 @@ header.header_fixed nav ul li a,
     -o-transition:all .2s linear;
 }
 
-.Gallery .folio_wrapper ul li article:hover .folio_info{
+.portfolio .folio_wrapper ul li article:hover .folio_info{
     bottom: 20px;
     opacity: 1;
 }
 
-.Gallery .folio_wrapper ul li .folio_info a{
+.portfolio .folio_wrapper ul li .folio_info a{
     text-decoration: none;
 }
 
-.Gallery .folio_wrapper ul li .folio_info a h2{
+.portfolio .folio_wrapper ul li .folio_info a h2{
     color: #fff;
     font-family: "opensans-semibold", arial;
     font-size: 16px;
@@ -442,7 +441,7 @@ header.header_fixed nav ul li a,
     margin: 0;
 }
 
-.Gallery .folio_wrapper ul li .folio_info a h3{
+.portfolio .folio_wrapper ul li .folio_info a h3{
     color: #fff;
     font-family: "opensans-regular", arial;
     font-size: 12px;
@@ -451,7 +450,7 @@ header.header_fixed nav ul li a,
     margin: 10px 0 0 0;
 }
 
-.Gallery .folio_wrapper ul li .folio_img img{
+.portfolio .folio_wrapper ul li .folio_img img{
     position: absolute;
     top: 0;
     left: 0;
@@ -460,11 +459,11 @@ header.header_fixed nav ul li a,
 
 
 /*----    portfolio slider  ----*/
-.Gallery .flex-viewport{
+.portfolio .flex-viewport{
     overflow: visible!important;
 }
 
-.Gallery .folio_wrapper{
+.portfolio .folio_wrapper{
     margin-top: 100px;
     overflow-x: visible!important;
 }
@@ -474,10 +473,10 @@ header.header_fixed nav ul li a,
 }
 
 .folio_wrapper ol.flex-control-paging li a.flex-active{
-    background: url('../images/slider_nav_active.png') no-repeat;
+    background: url('assets/images/slider_nav_active.png') no-repeat;
 }
 
-.Gallery .folio_wrapper ul li{
+.portfolio .folio_wrapper ul li{
     display: block;
     width: 313px;
     height: 310px;
@@ -488,7 +487,7 @@ header.header_fixed nav ul li a,
     margin-right: 80px;
 }
 
-.Gallery .folio_wrapper ul li:last-child{
+.portfolio .folio_wrapper ul li:last-child{
     margin-right: 0;
 }
 
@@ -509,7 +508,7 @@ header.header_fixed nav ul li a,
     display: block;
     width: 10px;
     height: 10px;
-    background: url('../images/slider_nav_inactive.png') no-repeat;
+    background: url('assets/images/slider_nav_inactive.png') no-repeat;
     overflow: hidden;
     text-indent: -5555px;
 
