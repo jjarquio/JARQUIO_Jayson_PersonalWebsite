@@ -82,34 +82,6 @@ header.header_fixed{
 }
 
 
-header.shadow{
-    box-shadow: 0 1px 3px #F0F0F0;
-    -webkit-box-shadow: 0 1px 3px #F0F0F0;
-    -moz-box-shadow: 0 1px 3px #F0F0F0;
-    -o-box-shadow: 0 1px 3px #F0F0F0;
-}
-
-header.header_fixed nav,
-.billboard header nav{
-    float: right;
-}
-
-header.header_fixed nav ul,
-.billboard header nav ul{
-    display: inline-block;
-    list-style: none;
-    margin: 45px 36px 0 0;
-    float: left;
-}
-
-header.header_fixed nav ul li,
-.billboard header nav ul li{
-    display: none;
-    float: left;
-    margin-left: 40px;
-    margin-top: -10px;
-}
-
 header.header_fixed nav ul li a,
 .billboard header nav ul li a{
     font-family: "Raslani Undaground", arial;
@@ -118,17 +90,11 @@ header.header_fixed nav ul li a,
     letter-spacing: .5px;
 }
 
-header.header_fixed nav ul li a{
-    color: #fff;
-}
 
-.billboard header nav ul li a{
-    color: #535353;
-}
 /*menu*/
 #menu li {
 	display:inline-block;
-	margin: 10px;
+	margin: 20px;
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
@@ -141,6 +107,7 @@ header.header_fixed nav ul li a{
 	color: #fff;
 }
 #menu li a{
+	margin: 5px;
 	text-decoration:none;
 	color: #000;
 }
@@ -162,7 +129,7 @@ header.header_fixed nav ul li a{
 	position:fixed;
 	top:0%;
 	left:0;
-	height: 60px;
+	height: 80px;
 	z-index: 70;
 	width: 100%;
 	padding: 0;
