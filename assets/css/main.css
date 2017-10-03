@@ -129,93 +129,78 @@ header.header_fixed nav ul li a{
 .billboard header nav ul li a{
     color: #535353;
 }
-
-header .hamburger,
-header.header_fixed nav .hamburger{
-    display: block;
-    width: 25px;
-    height: 16px;
-    position: relative;
-    float: right;
-    margin-top: 43px;
-    text-decoration: none;
+/*menu*/
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:5%;
+	left:40%;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
 }
 
-
-header .hamburger .top,
-header .hamburger .middle,
-header .hamburger .bottom{
-    transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -o-transition:all .2s linear;
+#infoMenu{
+	height: 20px;
+	color: #f2f2f2;
+	position:fixed;
+	z-index:70;
+	bottom:0;
+	width:100%;
+	text-align:right;
+	font-size:0.9em;
+	padding:8px 0 8px 0;
 }
-
-header .hamburger .top,
-header .hamburger .middle,
-header .hamburger .bottom,
-header.header_fixed nav .hamburger .top,
-header.header_fixed nav .hamburger .middle,
-header.header_fixed nav .hamburger .bottom,
-header .hamburger .left,
-header .hamburger .right{
-    position: absolute;
-    display: block;
-    width: 25px;
-    height: 2px;
-    right: 0;
+#infoMenu ul{
+	padding: 0 40px;
 }
-
-header .hamburger .top,
-header .hamburger .middle,
-header .hamburger .bottom,
-header .hamburger .left,
-header .hamburger .right{
-    background: #535353;
+#infoMenu li a{
+	display: block;
+	margin: 0 22px 0 0;
+	color: #333;
 }
-
-header.header_fixed nav .hamburger .top,
-header.header_fixed nav .hamburger .middle,
-header.header_fixed nav .hamburger .bottom{
-    background: #fff;
+#infoMenu li a:hover{
+	text-decoration:underline;
 }
-
-header .hamburger .top,
-header.header_fixed nav .hamburger .top{
-    top: 0;
+#infoMenu li{
+	display:inline-block;
+	position:relative;
 }
+/*end of menu*/
 
-header .hamburger .middle,
-header.header_fixed nav .hamburger .middle{
-    top: 7px;
-}
-
-header .hamburger .bottom,
-header.header_fixed nav .hamburger .bottom{
-    bottom: 0;
-}
-
-header .hamburger.active .top,
-header .hamburger.active .middle,
-header .hamburger.active .bottom{
-    opacity: 0;
-}
-
-header .hamburger.active .right{
-    opacity: 1;
-    transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-}
-
-header .hamburger.active .left{
-    opacity: 1;
-    transform:rotate(-45deg);
-    -webkit-transform:rotate(-45deg);
-    -moz-transform:rotate(-45deg);
-    -o-transform:rotate(-45deg);
-}
 
 /*  billboard  */
 .billboard{
@@ -233,7 +218,7 @@ header .hamburger.active .left{
 
 .billboard .caption h2{
     color: #525252;
-    font-family: "Overheader_logo-semibold", arial;
+    font-family: "Raslani Undaground", arial;
     font-size: 80px;
     font-weight: bold;
     margin: 0;
@@ -274,7 +259,8 @@ header .hamburger.active .left{
 .Introduction article .Introduction_info h3{
     margin: 0 0 40px 0;
     color: #535353;
-    font-family: "Overheader_logo-semibold", arial;
+    font-family: "Raslani Undaground", arial;
+    float:center;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -353,7 +339,7 @@ header .hamburger.active .left{
 .Profile .timeline .right_row p,
 .Profile .timeline .left_row p{
     color: #797979;
-    font-family: "Overheader_logo-semibold", arial;
+    font-family: "", arial;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: .5px;
@@ -618,18 +604,18 @@ header .hamburger.active .left{
 }
 
 /**  contact  **/
-.contact{
+.Contact{
     padding: 140px 0;
     overflow: hidden;
     text-align: center;
 }
 
-.contact .title{
+.Contact .title{
     font-style: 26px;
     margin-top: 40px;
 }
 
-.contact hr{
+.Contact hr{
     display: block;
     border: 0;
     width: 100px;
@@ -638,8 +624,8 @@ header .hamburger.active .left{
     margin: 60px auto; 
 }
 
-.contact .email,
-.contact .phone{
+.Contact .email,
+.Contact .phone{
     color: #4badcf;
     font-family: "opensans-semibold", arial;
     font-size: 40px;
@@ -648,6 +634,6 @@ header .hamburger.active .left{
     letter-spacing: 2px;
 }
 
-.contact .email{
+.Contact .email{
     margin-bottom: 40px;
 }
