@@ -278,7 +278,7 @@ header.header_fixed nav ul li a,
     display: block;
     width: 30px;
     height: 2px;
-    background: #efeeee;
+    background: #2f4f4f;
     margin: 0 auto;
     border: 0;
 }
@@ -291,7 +291,7 @@ header.header_fixed nav ul li a,
 
 .Profile .timeline .left_row{
     width: 488px;
-    border-right: 2px solid #efeeee;
+    border-right: 2px solid #2f4f4f;
     float: left;
     padding: 60px 30px 0 30px;
     position: relative;
@@ -301,7 +301,7 @@ header.header_fixed nav ul li a,
     width: 490px;
     float: right;
     padding: 60px 30px 0 30px;
-    border-left: 2px solid #efeeee;
+    border-left: 2px solid #2f4f4f;
     position: relative;
 }
 
@@ -398,7 +398,8 @@ header.header_fixed nav ul li a,
 	position:relative;
 	display:block;
 	margin-bottom:15px;
-	width:100%;
+	width:70%;
+	left: 15%;
 	background:#eee;
 	height:35px;
 	border-radius:3px;
