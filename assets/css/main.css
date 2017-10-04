@@ -43,6 +43,13 @@
     font-style: normal;
 }
 
+@font-face {
+
+	 font-family: 'Love Story Rough';
+	 src: url('../fonts/Love Story Rough.ttf'),format('truetype');
+	 font-weight: normal;
+     font-style: normal;
+}
 
 @font-face {
 
@@ -259,6 +266,15 @@ header.header_fixed nav ul li a,
     overflow: hidden;
     padding: 140px 0;
     text-align: center;
+}
+
+
+.Introduction article p.service_desc{
+    color: #797878;
+    font-family: "honeyscript-semibold", arial;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify-all;
 }
 
 
