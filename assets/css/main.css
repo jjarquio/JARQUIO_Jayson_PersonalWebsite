@@ -512,7 +512,8 @@ width:110px;
     margin: 60px auto; 
 }
 #links{
-	padding: 0 40%;
+	width: 100%;
+	padding: 0 43%;
 	left: 40%;
 }
 #links a{
