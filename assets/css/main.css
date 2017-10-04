@@ -1,4 +1,5 @@
 /*  Fonts  */
+
 @font-face {
     font-family: 'opensans-regular';
     src: url('../fonts/opensans-regular.eot');
@@ -510,17 +511,11 @@ width:110px;
     background: #797979;
     margin: 60px auto; 
 }
+#links a{
+	margin: 0;
+    padding: 0;
+    font-size: 72%;
+    vertical-align: baseline;
 
-.Contact .email,
-.Contact .phone{
-    color: #4badcf;
-    font-family: "opensans-semibold", arial;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: 2px;
 }
 
-.Contact .email{
-    margin-bottom: 40px;
-}
