@@ -112,6 +112,11 @@ header{
     display: block;
     overflow: hidden;
 }
+header .header_logo{
+    margin-top: 40px;
+    float: left;
+}
+
 
 
 header.header_fixed{
@@ -144,7 +149,7 @@ header.header_fixed nav ul li a,
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
-            border-radius: 10px;
+    border-radius: 10px;
 }
 #menu li.active{
 	background:#666;
@@ -320,7 +325,7 @@ header.header_fixed nav ul li a,
 .Profile .timeline .right_row p,
 .Profile .timeline .left_row p{
     color: #797979;
-    font-family: "", arial;
+    font-family: "opensans-semibold", arial;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: .5px;
